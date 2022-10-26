@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "string-calculator"
+version = "0.1.0"
+description = ""
+authors = ["Ross Parkin <ross.parkin@armakuni.com>"]
+readme = "README.md"
+packages = [{include = "string_calculator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.15"
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
